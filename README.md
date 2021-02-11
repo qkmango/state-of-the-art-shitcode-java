@@ -1,6 +1,6 @@
 # 垃圾代码书写准则-Java
 
-这是基于垃圾代码准则的![state-of-the-art-shitcode](https://github.com/trekhleb/state-of-the-art-shitcode) Java 垃圾代码准则
+这是基于垃圾代码准则的([state-of-the-art-shitcode](https://github.com/trekhleb/state-of-the-art-shitcode))Java 垃圾代码准则
 
 ![qkmango 芒果小洛](README/logo_color.png)
 
