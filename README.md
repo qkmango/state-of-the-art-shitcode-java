@@ -4,9 +4,9 @@
 
 ![qkmango 芒果小洛](README/logo_color.png)
 
-![垃圾代码徽章](https://img.shields.io/badge/Author-qkmango-#28a9f7.svg)
-![垃圾代码徽章](https://img.shields.io/badge/Gitee-qkmango-#c71d23.svg)
-![垃圾代码徽章](https://img.shields.io/badge/Version-v1.0-#28a9f7.svg)
+![作者](https://img.shields.io/badge/Author-qkmango-28a9f7.svg)
+![Gitee](https://img.shields.io/badge/Gitee-qkmango-c71d23.svg)
+![版本](https://img.shields.io/badge/Version-v1.0-28a9f7.svg)
 ![垃圾代码徽章](https://img.shields.io/badge/State%20of%20the%20art-Shitcode-7B5804.svg)
 
 ↑↑↑ 这是一个你的项目应该遵循的垃圾代码书写准则的列表，把称为适当的垃圾代码
