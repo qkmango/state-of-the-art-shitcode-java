@@ -1,6 +1,6 @@
 # 垃圾代码书写准则-Java
 
-这是基于垃圾代码准则的 Java 垃圾代码准则
+这是基于垃圾代码准则的![state-of-the-art-shitcode](https://github.com/trekhleb/state-of-the-art-shitcode) Java 垃圾代码准则
 
 ![qkmango 芒果小洛](README/logo_color.png)
 
@@ -9,7 +9,7 @@
 ![版本](https://img.shields.io/badge/Version-v1.0-28a9f7.svg)
 ![垃圾代码徽章](https://img.shields.io/badge/State%20of%20the%20art-Shitcode-7B5804.svg)
 
-↑↑↑ 这是一个你的项目应该遵循的垃圾代码书写准则的列表，把称为适当的垃圾代码
+↑↑↑ 这是一个你的项目应该遵循的垃圾代码书写准则的列表，遵循此准则的称为垃圾代码
 
 ## 徽章
 
