@@ -84,7 +84,7 @@ if (session != null ||
 
 _Bad 👎🏻_
 
-```javascript
+```java
 /*如果session ！= null
   或 访问的路径是 登录页/登陆请求
   则放行*/
@@ -104,14 +104,14 @@ if (session != null ||
 
 _Good 👍🏻_
 
-```javascript
+```java
 //リリースリクエスト
 chain.doFilter(req,resp);
 ```
 
 _Bad 👎🏻_
 
-```javascript
+```java
 //将请求放行
 chain.doFilter(req,resp);
 ```
@@ -124,14 +124,14 @@ chain.doFilter(req,resp);
 
 _Good 👍🏻_
 
-```javascript
+```java
 ArrayList a = new ArrayList<>();
 ArrayList n = new ArrayList<>();
 ```
 
 _Bad 👎🏻_
 
-```javascript
+```java
 ArrayList<Integer> ageList = new ArrayList<>();
 ArrayList<String> nameList = new ArrayList<>();
 ```
@@ -164,7 +164,7 @@ byte[] textBytes = remark.getBytes();
 
 _Good 👍🏻_
 
-```javascript
+```java
 try {
     //意料之外的情况
 } catch (Exception e) {
@@ -174,7 +174,7 @@ try {
 
 _Bad 👎🏻_
 
-```javascript
+```java
 try {
     //意料之外的情况
 } catch (Exception e) {
@@ -190,7 +190,7 @@ try {
 
 _Good 👍🏻_
 
-```javascript
+```java
 static int x = 5;
 
 public static int square() {
@@ -243,7 +243,7 @@ int sum(int x, int y) {
 
 _Good 👍🏻_
 
-```javascript
+```java
 Student stu = (Student)object;
 int id = stu.getId();	//如果object不是Student类型，那么强转就会抛异常
 ```
@@ -265,7 +265,7 @@ if (object instanceof Student) {
 
 _Good 👍🏻_
 
-```javascript
+```java
 if (true) {
     return "{success:true}";
 } 
@@ -274,7 +274,7 @@ return "{success:false}";	//这是不可达代码，也就是Plan B
 
 _Bad 👎🏻_
 
-```javascript
+```java
 return "{success:true}";
 ```
 
@@ -286,7 +286,7 @@ return "{success:true}";
 
 _Good 👍🏻_
 
-```javascript
+```java
 if (object != null) {
     if (object instanceof Student) {
         Student stu = (Student) object;
@@ -303,7 +303,7 @@ if (object != null) {
 
 _Bad 👎🏻_
 
-```javascript
+```java
 if (object == null || !(object instanceof Student)) {
     return;
 }
