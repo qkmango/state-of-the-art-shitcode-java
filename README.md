@@ -239,22 +239,22 @@ int sum(int x, int y) {
 
 
 
-### 💩 如果语言允许，不要执行类型检查。
+### 💩 不要执行类型检查
 
 _Good 👍🏻_
 
 ```javascript
-if (object instanceof Student) {
-    Student stu = (Student)object;
-    int id = stu.getId();
-}
+Student stu = (Student)object;
+int id = stu.getId();	//如果object不是Student类型，那么强转就会抛异常
 ```
 
 _Bad 👎🏻_
 
 ```java
-Student stu = (Student)object;
-int id = stu.getId();	//如果object不是Student类型，那么强转就会抛异常
+if (object instanceof Student) {
+    Student stu = (Student)object;
+    int id = stu.getId();
+}
 ```
 
 
