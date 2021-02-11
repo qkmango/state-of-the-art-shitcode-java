@@ -261,16 +261,15 @@ if (object instanceof Student) {
 
 ### 💩 你应该有不能到达的代码
 
-这是你的 "Plan B".
+不能到达的代码，我们称为计划，这是你的 "Plan B".
 
 _Good 👍🏻_
 
 ```javascript
 if (true) {
     return "{success:true}";
-} else {
-    return "{success:false}";	//这是不可达代码，也就是Plan B
-}
+} 
+return "{success:false}";	//这是不可达代码，也就是Plan B
 ```
 
 _Bad 👎🏻_
