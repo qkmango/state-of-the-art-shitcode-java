@@ -1,13 +1,7 @@
 # 垃圾代码书写准则-Java
 
-<!-- 这是基于垃圾代码准则的([state-of-the-art-shitcode](https://github.com/trekhleb/state-of-the-art-shitcode))Java 垃圾代码准则 -->
 
 ![qkmango 芒果小洛](README/logo_color.png)
-
-<!-- ![作者](https://img.shields.io/badge/Author-qkmango-28a9f7.svg)
-![Gitee](https://img.shields.io/badge/Gitee-qkmango-c71d23.svg)
-![版本](https://img.shields.io/badge/Version-v1.0-28a9f7.svg)
-![垃圾代码徽章](https://img.shields.io/badge/State%20of%20the%20art-Shitcode-7B5804.svg) -->
 
 ↑↑↑ 这是一个你的项目应该遵循的垃圾代码书写准则的列表，遵循此准则的称为垃圾代码
 
@@ -15,14 +9,7 @@
 
 如果您的存储库遵循最新的shitcode原则，你应当使用此徽章来表示这个项目是一个遵循了垃圾代码的项目，使用以下标志：
 
-<!-- [![垃圾代码徽章](https://img.shields.io/badge/State%20of%20the%20art-Shitcode-7B5804.svg)](https://gitee.com/qkmango/state-of-the-art-shitcode-java) -->
-
 徽章的Markdown源代码：
-
-<!-- ```md
-![垃圾代码徽章](https://img.shields.io/badge/State%20of%20the%20art-Shitcode-7B5804.svg)
-``` -->
-
 
 
 ## 准则
